@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face{
+    font-family: 'UBUNTU';
+    src: url('../fonts/Ubuntu/Ubuntu-bold.ttf');
+    src: url('../fonts/Ubuntu/Ubuntu-boldItalic.ttf');
+    src: url('../fonts/Ubuntu/Ubuntu-Italic.ttf');
+    src: url('../fonts/Ubuntu/Ubuntu-Light.ttf');
+    src: url('../fonts/Ubuntu/Ubuntu-LightItalic.ttf');
+    src: url('../fonts/Ubuntu/Ubuntu-Medium.ttf');
+    src: url('../fonts/Ubuntu/Ubuntu-MediumItalic.ttf');
+    src: url('../fonts/Ubuntu/Ubuntu-Regular.ttf');
+}
+
+/* color: #333D47; grey */
+/* color: #85C121; green */
+
+button:active, button:focus {
+    outline: none !important;
+}
+button::-moz-focus-inner {
+    border: 0 !important;
+}
+a:active, button:focus {
+    outline: none !important;
+}
+a::-moz-focus-inner {
+    border: 0 !important;
+}
+
+.pics {
+
+    padding: 0;
+    margin:  0;
+}
+
+
+#logoId{
+    margin-right: 200px;
+}
+
+
+@media (max-width: 500px) {
+    #logoId{
+        padding: 0;
+        margin: 0;
+    }
+}
+.cycle-pager { text-align: center; width: 100%; z-index: 500; top: 10px; overflow: hidden; }
+
+.cycle-pager span { font-size: 50px; width: 16px; height: 16px; display: inline-block; color: #ddd; }
+
+.cycle-pager span.cycle-pager-active { color: #85C121;}
+.cycle-pager > * { cursor: pointer;}
+/*=================================================================*/
+
+
+.test{
+    background: #85C121;
+    border-right: 1px solid black;
+}
+
+.navContacts{
+    background: #F8F9FA;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+
+.fa-instagram-square{
+    font-size: 25pt;
+    color: #CE3A91;
+    transition: all 0.5s;
+}
+
+.fa-facebook-square{
+    font-size: 25pt;
+    color: #39569A;
+    transition: all 0.5s;
+}
+
+.fa-telegram{
+    font-size: 25pt;
+    color: #2395D0;
+    transition: all 0.5s;
+}
+
+.fa-envelope-square{
+    font-size: 25pt;
+    color: #E34133;
+    transition: all 0.5s;
+}
+
+.fa-youtube{
+    font-size: 25pt;
+    color: #FF0000;
+    transition: all 0.5s;
+}
+
+.fa-phone-square{
+    font-size: 25pt;
+    color: #00C843;
+    transition: all 0.5s;
+}
+
+
+.fa-instagram-square:hover,
+.fa-facebook-square:hover,
+.fa-telegram:hover,
+.fa-envelope-square:hover,
+.fa-youtube:hover,
+.fa-phone-square:hover{
+    font-size: 32pt;
+    transition: all 0.5s;
+}
+
+.wightUpFont{
+    font-family: 'UBUNTU';
+    font-style: italic;
+    color: #333D47;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 20pt;
+    border: 1px solid #333D47;
+    border-radius: 5px;
+    background: #85C121;
+}
+
+.pText{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.myBtn{
+    text-align: center;
+    border: 1px solid #333D47;
+    color: #333D47;
+    background: #85C121;
+    max-width: 250px;
+}
+
+.my_text{
+    font-family: 'UBUNTU';
+    font-style: italic;
+    color: #333D47;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 3px;
+    font-size: 24pt;
+    margin: 20px;
+
+}
+
+.pPost{
+    display: inline-block;
+    color: #00C843;
+}
+
+.oneService{
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    height: auto;
+    padding: 20px;
+    border: 1px solid #333D47;
+    margin: 20px;
+    color: #333D47;
+    text-decoration: none;
+    transition: all 1s;
+}
+.noLineA{
+    text-decoration: none;
+}
+
+.noLineA:hover{
+    text-decoration: none;
+}
+.oneService:hover{
+    background: #333D47;
+    color: white;
+    text-decoration: none;
+    transition: all 0.7s;
+}
+.my-col{
+    display: flex;
+
+}
+
+.my-p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #333D47;
+    font-size: 19pt;
+}
+
+.my-card{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
